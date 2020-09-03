@@ -1,0 +1,36 @@
+.card {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border: none !important;
+  margin-top: 40px;
+}
+
+.card .cardproduct {
+  margin: 25px;
+}
+
+.card .cardproduct:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card button {
+  border: none;
+  background-color: transparent;
+}
+
+.card button img {
+  height: 110px;
+  width: 110px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=art.css.map */

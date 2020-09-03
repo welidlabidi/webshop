@@ -1,0 +1,72 @@
+.productscreen {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.productscreen .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.productscreen .product img {
+  width: 325px;
+  height: 400px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.productscreen .product .productdetails li {
+  list-style: none;
+}
+
+.productscreen .product .productselection {
+  border: 1px solid #d8caca;
+  width: 25%;
+  border-radius: 7px;
+  background-color: #ebebec;
+}
+
+.productscreen .product .productselection li {
+  padding: 10px;
+  list-style: none;
+}
+
+.productscreen .product .productselection select {
+  border-radius: 5px;
+}
+
+.productscreen .product .productselection .btn-add {
+  padding: 10px;
+}
+
+.productscreen .product .productselection .btn-add button {
+  width: 100%;
+  border: solid 0.5px black;
+  background-color: #f8b73d;
+}
+
+.productscreen .product .productselection .btn-add button:hover {
+  -webkit-box-shadow: 1px 1px 1px black;
+          box-shadow: 1px 1px 1px black;
+  outline-color: none;
+}
+/*# sourceMappingURL=product.css.map */
