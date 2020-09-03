@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "dev-tools": "^0.1.6",
+    "express": "^4.17.1",
+    "redux-devtools": "^3.6.1",
+    "redux-devtools-extension": "^2.13.8"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
